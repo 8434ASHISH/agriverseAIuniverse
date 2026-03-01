@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 
 class VisionService {
   static const String _apiKey =
-      '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';
+      'your api keys here';
   static const String _baseUrl = 'https://openrouter.ai/api/v1/chat/completions';
 
   static Future<Map<String, dynamic>> analyzeImage(String base64Image) async {
